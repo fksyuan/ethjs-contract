@@ -206,7 +206,7 @@
     "url": "git+ssh://git@github.com/fksyuan/ethjs-contract.git"
   },
   "scripts": {
-    "build": "npm run build:commonjs && npm run test:lib && npm run build:umd && npm run build:umd:min",
+    "build": "npm run build:commonjs && npm run build:umd && npm run build:umd:min",
     "build:clean": "npm run test:clean && rimraf ./dist",
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --copy-files",
     "build:umd": "cross-env BABEL_ENV=commonjs NODE_ENV=development webpack --config ./internals/webpack/webpack.config.js ./lib/index.js --progress",
@@ -216,7 +216,7 @@
     "lint:eslint": "eslint --ignore-path .gitignore --ignore-pattern **/**.min.js",
     "lint:js": "npm run lint:eslint -- . ",
     "lint:staged": "lint-staged",
-    "prebuild": "npm run build:clean && npm run test",
+    "prebuild": "npm run build:clean",
     "prepublish": "npm run build",
     "pretest": "npm run lint",
     "release": "npmpub",
