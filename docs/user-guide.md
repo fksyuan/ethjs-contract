@@ -12,8 +12,8 @@ npm install --save ethjs-contract
 
 ```js
 const HttpProvider = require('ethjs-provider-http');
-const Eth = require('ethjs-query');
-const EthContract = require('ethjs-contract');
+const Eth = require('@fksyuan/ethjs-query');
+const EthContract = require('@fksyuan/ethjs-contract');
 const eth = new Eth(new HttpProvider('http://localhost:8545'));
 const contract = new EthContract(eth);
 
@@ -60,8 +60,8 @@ Result `contract` **Object**.
 
 ```js
 const HttpProvider = require('ethjs-provider-http');
-const Eth = require('ethjs-query');
-const EthContract = require('ethjs-contract');
+const Eth = require('@fksyuan/ethjs-query');
+const EthContract = require('@fksyuan/ethjs-contract');
 const eth = new Eth(new HttpProvider('http://localhost:8545'));
 const contract = new EthContract(eth);
 ```
@@ -82,8 +82,8 @@ Result `ContractFactory` **Object**.
 
 ```js
 const HttpProvider = require('ethjs-provider-http');
-const Eth = require('ethjs-query');
-const EthContract = require('ethjs-contract');
+const Eth = require('@fksyuan/ethjs-query');
+const EthContract = require('@fksyuan/ethjs-contract');
 const eth = new Eth(new HttpProvider('http://localhost:8545'));
 const contract = new EthContract(eth);
 
@@ -127,8 +127,8 @@ Result a single Promise **Object** instance.
 
 ```js
 const HttpProvider = require('ethjs-provider-http');
-const Eth = require('ethjs-query');
-const EthContract = require('ethjs-contract');
+const Eth = require('@fksyuan/ethjs-query');
+const EthContract = require('@fksyuan/ethjs-contract');
 const eth = new Eth(new HttpProvider('http://localhost:8545'));
 const contract = new EthContract(eth);
 
@@ -166,8 +166,8 @@ Result a single `Contract` **Object** instance.
 
 ```js
 const HttpProvider = require('ethjs-provider-http');
-const Eth = require('ethjs-query');
-const EthContract = require('ethjs-contract');
+const Eth = require('@fksyuan/ethjs-query');
+const EthContract = require('@fksyuan/ethjs-contract');
 const eth = new Eth(new HttpProvider('http://localhost:8545'));
 const contract = new EthContract(eth);
 
@@ -214,8 +214,8 @@ You will notice the `simpleStore` instance makes all these methods available to 
 
 ```js
 const HttpProvider = require('ethjs-provider-http');
-const Eth = require('ethjs-query');
-const EthContract = require('ethjs-contract');
+const Eth = require('@fksyuan/ethjs-query');
+const EthContract = require('@fksyuan/ethjs-contract');
 const eth = new Eth(new HttpProvider('http://localhost:8545'));
 const contract = new EthContract(eth);
 

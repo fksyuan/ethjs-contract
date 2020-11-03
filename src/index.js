@@ -1,4 +1,4 @@
-const abi = require('ethjs-abi'); // eslint-disable-line
+const abi = require('@fksyuan/ethjs-abi'); // eslint-disable-line
 const keccak256 = require('js-sha3').keccak_256; // eslint-disable-line
 const EthFilter = require('ethjs-filter'); // eslint-disable-line
 const getKeys = require('ethjs-util').getKeys; // eslint-disable-line
